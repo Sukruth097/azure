@@ -1,15 +1,15 @@
 echo [$(date)]: "START"
 echo [$(date)]: "creating environment"
-conda create -p azure python=3.8 -y
+conda create -p azureenv python=3.8 -y
 echo [$(date)]: "activate environment"
-source activate venv/
+source activate azureenv/
 
 echo [$(date)]: "install requirements"
 pip install -r requirements.txt
 # echo [$(date)]: "export conda environment"
 # conda env export > conda.yaml
-echo "# ${PWD}" > README.md
-echo [$(date)]: "first commit"
+# echo "# ${PWD}" > README.md
+# echo [$(date)]: "first commit"
 # git init
 # git remote add origin https://github.com/Sukruth097/azure.git
 # git branch -M main #{branch name}

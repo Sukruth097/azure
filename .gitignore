@@ -5,6 +5,7 @@ __pycache__/
 azure
 # C extensions
 *.so
+azure*
 
 # Distribution / packaging
 .Python
