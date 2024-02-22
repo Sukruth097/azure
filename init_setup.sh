@@ -1,6 +1,6 @@
 echo [$(date)]: "START"
 echo [$(date)]: "creating environment"
-conda create - azureenv python=3.8 -y
+conda create -p azureenv python=3.8 -y
 echo [$(date)]: "activate environment"
 source activate azureenv/
 
