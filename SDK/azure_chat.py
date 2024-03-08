@@ -3,8 +3,12 @@ import openai
 openai.api_type = "azure"
 # openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
 # openai.api_key = os.getenv("AZURE_OPENAI_KEY")
+
 openai.api_base ="****"
 openai.api_key =  "***" 
+openai.api_base ="*********"
+openai.api_key =  "*******" 
+
 # openai.api_version = "2023-03-15-preview"
 openai.api_version = "2023-12-01-preview"
 
