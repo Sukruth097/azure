@@ -4,8 +4,8 @@ from openai import AzureOpenAI
     
 client = AzureOpenAI(
     # api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
-    api_key="d6005d5de77c486d89c9addf6abb6d3c",
-    azure_endpoint = "https://aoaipre11.openai.azure.com/",
+    api_key="",
+    azure_endpoint = "",
     api_version="2024-02-15-preview"
     # azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     )
